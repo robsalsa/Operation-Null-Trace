@@ -7,7 +7,7 @@
 
 
     <!-- put the imports here if any -->
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://db.onlinewebfonts.com/c/f241b27a37b4f65dfffef1cd78586354?family=FBI+Old+Report+Regular"
         rel="stylesheet">
@@ -47,50 +47,54 @@
         </nav>
     </header>
 
-    <body>
-        <div class="evidence-container">
-            <h3> Robert Salazar Vasquez </h3>
-
-            <div class="evidence-grid-container">
-                <div class="evidence-card column-0">
-                    <div class="card evidence-card-color-0">
-                        <div class="evidence-card-border"></div>
-                        <img src="Assets/project1" />
-                        <h1>Job #1</h1>
-                    </div>
-                    <div class="card evidence-card-color-1">
-                        <div class="evidence-card-border"></div>
-                        <img src="Assets/project2" />
-                        <h1>Job #2</h1>
-                    </div>
-
+    <main>
+        <div class="container">
+            <div class="card-column column-0">
+                <div class="card card-color-0">
+                    <div class="border"></div>
+                    <img src="" alt="loading... maybe" />
+                    <h1>section 1</h1>
                 </div>
-
-                <div class="evidence-card column-1">
-                    <div class="card evidence-card-color-2">
-                        <div class="evidence-card-border"></div>
-                        <img src="Assets/project3" />
-                        <h1>Job #3</h1>
-                    </div>
-                    <div class="card evidence-card-color-3">
-                        <div class="evidence-card-border"></div>
-                        <img src="Assets/project4" />
-                        <h1>Job #4</h1>
-                    </div>
-
+                <div class="card card-color-2">
+                    <div class="border"></div>
+                    <img src="" alt="loading... maybe" />
+                    <h1>section 2</h1>
+                </div>
+                <!-- <div class="card card-color-4">
+                    <div class="border"></div>
+                    <img src="" alt="loading... maybe" />
+                    <h1>section 2</h1>
+                </div> -->
+            </div>
+            <div class="card-column column-1">
+                <div class="card card-color-1">
+                    <div class="border"></div>
+                    <img src="" alt="loading... maybe" />
+                    <h1>section 3</h1>
+                </div>
+                <div class="card card-color-3">
+                    <div class="border"></div>
+                    <img src="" alt="loading... maybe" />
+                    <h1>section 4</h1>
                 </div>
             </div>
-
-            <!-- here -->
-
         </div>
 
-    </body>
+        <div id="cover" class="cover"></div>
 
+        <div id="open-content" class="open-content">
+            <a href="#" id="close-content" class="close-content"><span class="x-1"></span><span class="x-2"></span></a>
+            <img id="open-content-image" src="" />
+            <div class="text" id="open-content-text">
+            </div>
+        </div>
+
+    </main>
 
 
 
 </body>
-<script src="JavaScript/bars.js"></script>
+<script src="JavaScript/header.js" type="text/javascript"></script>
+<script src="JavaScript/heroAPI.js"></script>
 
 </html>
