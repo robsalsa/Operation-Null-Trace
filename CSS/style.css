@@ -292,18 +292,83 @@ p .hero {
 */
 
 @media screen and (max-width: 600px) {
-  .card-column {
+  header {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .topnav a, .topnav h3, .topnav h2 {
+    font-size: 16px;
+  }
+
+  .topnav .myLinks {
+    display: block;
+    text-align: center;
+  }
+
+  .topnav a {
+    float: none;
+    display: block;
+    text-align: center;
+    padding: 12px;
+  }
+
+  .topnav a.icon {
+    float: right;
+  }
+
+  .hero {
+    font-size: 20px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .open-content .text {
+    padding: 20% 5% 5% 5%;
     width: 90%;
   }
 
-  .column-1 {
-    padding-top: 0px;
+  .card h1 {
+    padding: 80px 0px 40px 10px;
+    font-size: 20px;
+  }
+
+  .card-column {
+    width: 100%;
+    padding: 2%;
+  }
+
+  .collumn {
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 10px 0;
+  }
+
+  .collumn + .collumn {
+    border-left: none;
+    margin-top: 10px;
   }
 
   .open-content img {
-    margin-top: 20px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .weatherbox-container {
+    width: 80%;
+    margin: 10px auto;
+    float: none;
+  }
+
+  .content-container {
+    display: block;
+    margin: 0 auto;
   }
 }
+
 
 body .main {
   font-family: 'Droid Serif', serif;
