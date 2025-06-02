@@ -292,9 +292,9 @@ p .hero {
 */
 
 @media screen and (max-width: 600px) {
-  header {
-    font-size: 36px;
-    line-height: 40px;
+  body .header {
+    font-size: 10px;
+    line-height: 15px;
   }
 
   .topnav a, .topnav h3, .topnav h2 {
@@ -313,9 +313,9 @@ p .hero {
     padding: 12px;
   }
 
-  .topnav a.icon {
+  /* .topnav a.icon {
     float: right;
-  }
+  } */
 
   /* .hero {
     font-size: 20px;
