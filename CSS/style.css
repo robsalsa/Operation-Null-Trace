@@ -1,3 +1,4 @@
+@ -0,0 +1,781 @@
 @font-face {
   font-family: 'FBI Old Report Regular';
   src: url('https://db.onlinewebfonts.com/t/f241b27a37b4f65dfffef1cd78586354.woff2') format('woff2');
@@ -292,83 +293,18 @@ p .hero {
 */
 
 @media screen and (max-width: 600px) {
-  body .header {
-    font-size: 10px;
-    line-height: 15px;
-  }
-
-  .topnav a, .topnav h3, .topnav h2 {
-    font-size: 16px;
-  }
-
-  .topnav .myLinks {
-    display: block;
-    text-align: center;
-  }
-
-  .topnav a {
-    float: none;
-    display: block;
-    text-align: center;
-    padding: 12px;
-  }
-
-  /* .topnav a.icon {
-    float: right;
-  } */
-
-  /* .hero {
-    font-size: 20px;
-  }
-
-  .hero p {
-    font-size: 14px;
-  }
-
-  .open-content .text {
-    padding: 20% 5% 5% 5%;
+  .card-column {
     width: 90%;
   }
 
-  .card h1 {
-    padding: 80px 0px 40px 10px;
-    font-size: 20px;
-  }
-
-  .card-column {
-    width: 100%;
-    padding: 2%;
-  }
-
-  .collumn {
-    width: 100%;
-    display: block;
-    border: none;
-    padding: 10px 0;
-  }
-
-  .collumn + .collumn {
-    border-left: none;
-    margin-top: 10px;
+  .column-1 {
+    padding-top: 0px;
   }
 
   .open-content img {
-    width: 100%;
-    margin-left: 0;
+    margin-top: 20px;
   }
-
-  .weatherbox-container {
-    width: 80%;
-    margin: 10px auto;
-    float: none;
-  }
-
-   .content-container {
-    display: block;
-    margin: 0 auto;
-  }  */
 }
-
 
 body .main {
   font-family: 'Droid Serif', serif;
@@ -838,9 +774,17 @@ body #main{
   transform: translate(2px, 2px);
 }
 
+@media (min-width: 600px) {
+  .button-74 {
+    font-size: 14px;
+    line-height:40px;
+    padding: 0 25px;
+  }
+}
 @media (min-width: 768px) {
   .button-74 {
-    min-width: 120px;
+    font-size: 14px;
+    line-height:40px;
     padding: 0 25px;
   }
 }
