@@ -566,6 +566,7 @@ main .p{
       	border-bottom: 1px solid #2f2f2f;
 	}
     header{
+        position:center;
         max-width: 320px;
         font-size: 60px;
         line-height: 54px;
@@ -600,10 +601,10 @@ main .p{
 } */
 
 .footer-container {
-
   background-color: #000;
   color: #fff;
   padding: 1em 0;
+  text-align:center;
 }
 .footer-container h1 {
   font-family: 'Earwig Factory', sans-serif;
@@ -614,8 +615,28 @@ main .p{
 .main-box {
   position: relative;
   width: 100%;
-  height: 500px; /* or your preferred height */
+  height: 500px;
+  /* margin: auto; */
   overflow: hidden;
+}
+.background-gif{
+  width:100%;
+  height: 100%;
+  display: block;
+}
+.overlay-link{
+  position: relative;
+  bottom:10px;
+  right:10px;
+}
+.overlay-gif{
+  width:80px;
+  height: auto;
+}
+.main-box img{
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .mouse {
