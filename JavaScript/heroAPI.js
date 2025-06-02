@@ -95,6 +95,7 @@ function setCoverPosition(cardPosition) {
 
 function setCoverColor(cardStyle) {
     cover.style.backgroundColor = cardStyle.backgroundColor;
+
 }
 
 function scaleCoverToFillWindow(cardPosition) {
