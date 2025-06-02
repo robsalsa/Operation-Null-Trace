@@ -135,6 +135,9 @@ p .hero {
   padding: 190px 0px 100px 10px;
   width: 90%;
 }
+.card a{
+  color: white;
+}
 
 .card>img {
   width: 90%;
