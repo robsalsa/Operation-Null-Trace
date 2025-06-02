@@ -1,0 +1,53 @@
+*{box-sizing: border-box}
+
+body{
+    font-family:'Georgia', serif;
+    margin: 0;
+    background-color: #FEFCF3;
+    color: #000000;
+    line-height: 1.6;
+}
+review-container{
+    padding: 20px;
+}
+.review-container h2{
+    font-family: 'Earwig Factory';
+    font-size: 2.5em;
+    text-align:center;
+}
+.review-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+.review-item{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.review-item:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.review-item h3{
+    font-family: 'Earwig Factory';
+    font-size: 5em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.review-item .description{
+    color: #666;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+.review-item .rating{ 
+    font-size: 2em;
+    font-weight: bold;
+    color: #FF0B55;
+}
+.review-item img{
+    height: 75%;
+    width: 75%;
+}

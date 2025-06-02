@@ -195,7 +195,7 @@ p .hero{
 }
 
 .close-content span {
-  background: #222;
+  background: #e6e6e6;
   width: 30px;
   height: 6px;
   display: block;
@@ -614,28 +614,15 @@ main .p{
 }
 .main-box {
   position: relative;
-  width: 100%;
-  height: 500px;
-  /* margin: auto; */
+  width: 770px;
+  height: 300px;
+  margin: auto;
   overflow: hidden;
-}
-.background-gif{
-  width:100%;
-  height: 100%;
-  display: block;
-}
-.overlay-link{
-  position: relative;
-  bottom:10px;
-  right:10px;
-}
-.overlay-gif{
-  width:80px;
-  height: auto;
+
 }
 .main-box img{
-  width: 100%;
-  height: auto;
+  width: 770px;
+  height: 307px;
   display: block;
 }
 
@@ -662,3 +649,17 @@ html, body {
     font-family: 'Earwig Factory';
     src: url('path/to/your/fontfile.ttf') format('truetype');
 }
+.main-box a {
+  position: absolute;
+  left: 676px;
+  top: 233px;
+  width: 21px;
+  height: 16px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  line-height: 16px; 
+  font-size: 12px;
+}
+
