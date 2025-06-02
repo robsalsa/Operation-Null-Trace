@@ -79,6 +79,11 @@ body .hero {
   font-size: 40px;
   font-family: 'FBI Old Report Regular', serif;
 }
+.hero p{
+  font-family: 'Earwig Factory';
+  text-align:center;
+
+}
 
 p .hero {
   line-height: 1.5;
