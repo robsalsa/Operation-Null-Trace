@@ -51,3 +51,80 @@ review-container{
     height: 75%;
     width: 75%;
 }
+.topnav {
+  /* font-family: 'Droid Serif', serif; */
+  overflow: hidden;
+  background-color: #000000;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+
+.topnav .myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+  color: rgb(195, 192, 192);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+.topnav h3{
+  font-size:30px;
+}
+.topnav h2{
+  font-size:25px;
+
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: #b00000;
+  color: rgb(0, 0, 0);
+}
+
+.topnav-items-container {
+  float: right;
+}
+
+/* CSS */
+.button-74 {
+  background-color: #000000;
+  border: 2px solid #ff0000;
+  border-radius: 30px;
+  box-shadow: #e60000 4px 4px 0 0;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #000000;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
