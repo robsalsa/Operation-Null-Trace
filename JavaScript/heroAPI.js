@@ -6,7 +6,7 @@ var cards, nCards, cover, openContent, openContentText,
     currentCard, pageIsOpen = false;
 
 var paragraphTexts = [
-    '<p>This is paragraph content for card 1. Lorem ipsum dolor sit amet.</p>',
+    `<p style="font-family: 'FBI Old Report Regular', serif;"><strong>Project Title:</strong> LA Wildfire Watch<br><strong>Authors:</strong> Emi, Toba, Maia, Roberto, Reyli, Reyna<br><strong>Date:</strong> April 24, 2025<br><strong>Status:</strong> APPROVED<br><br><strong>Summary:</strong> LA Wildfire Watch is a web application designed to provide Los Angeles residents with real-time insights into wildfire recovery and risks. It displays data on active and past fires, debris removal progress, and daily fire danger levels. The project aims to make government data more accessible, especially for communities recovering from the Palisades and Eaton fires in January 2025.<br><br><strong>Key Features:</strong> Debris Removal Tracker with interactive maps, Historical Insights through heatmaps, and Daily Fire Danger Levels from sources like NOAA and Smokey Bear.<br><br><strong>Technologies:</strong> AWS, ArcGIS API, Kaggle datasets, GitHub, Python Flask, PostgreSQL, React, HTML & CSS, and Folium & Google Maps API.<br><br><strong>Motivation:</strong> To help communities stay informed, make data-driven decisions, and advocate for necessary resources by turning complex data into clear, actionable insights.</p>`,
     '<p>This is paragraph content for card 2. Consectetur adipiscing elit.</p>',
     '<p>This is paragraph content for card 3. Sed do eiusmod tempor incididunt.</p>',
     '<p>This is paragraph content for card 4. Ut labore et dolore magna aliqua.</p>'
