@@ -6,7 +6,7 @@ var cards, nCards, cover, openContent, openContentText,
     currentCard, pageIsOpen = false;
 
 var paragraphTexts = [
-  `<p style="font-family: 'FBI Old Report Regular', serif;">
+  `<p>
     <strong>Project Title:</strong> LA Wildfire Watch<br>
     <strong>Authors:</strong> Emi, Toba, Maia, Roberto, Reyli, Reyna<br>
     <strong>Date:</strong> April 24, 2025<br>
@@ -17,7 +17,7 @@ var paragraphTexts = [
     <strong>Motivation:</strong> To help communities stay informed, make data-driven decisions, and advocate for necessary resources by turning complex data into clear, actionable insights.
   </p>`,
 
-  `<p style="font-family: 'FBI Old Report Regular', serif;">
+  `<p>
     <strong>Project Title:</strong> Restaurant Reservation Web Page<br>
     <strong>Authors:</strong> Andre Richardson, Roberto Salazar Vasquez, Alexander Escobedo, Gustavo Fuentes, Leai Jackson<br>
     <strong>Date:</strong> Spring 2025<br>
@@ -28,7 +28,7 @@ var paragraphTexts = [
     <strong>Motivation:</strong> To reduce wait times for customers and eliminate confusion for staff by integrating a streamlined reservation and seating interface accessible via both desktop and mobile platforms.
   </p>`,
 
-  `<p style="font-family: 'FBI Old Report Regular', serif;">
+  `<p>
     <strong>Project Title:</strong> Original Site<br>
     <strong>Authors:</strong> Roberto Salazar Vasquez<br>
     <strong>Date:</strong> Janurary 2021<br>
@@ -39,7 +39,7 @@ var paragraphTexts = [
     <strong>Motivation:</strong> I thought it would be fun but it also had an added benifit of being good practice in web development.
   </p>`,
 
-  `<p style="font-family: 'FBI Old Report Regular', serif;">
+  `<p>
     <strong>Project Title:</strong> Theres more to come...<br>
     <strong>Authors:</strong> Roberto Salazar Vasquez<br>
     <strong>Date:</strong>2025<br>

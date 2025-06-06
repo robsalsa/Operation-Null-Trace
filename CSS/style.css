@@ -1,8 +1,8 @@
-@ -0,0 +1,781 @@
+/* @ -0,0 +1,781 @@
 @font-face {
   font-family: 'FBI Old Report Regular';
   src: url('https://db.onlinewebfonts.com/t/f241b27a37b4f65dfffef1cd78586354.woff2') format('woff2');
-}
+} */
 
 
 /* body .header {
@@ -20,8 +20,10 @@
   border-radius: 10px;
 } */
 
+
+/*                                This is all the header things that is becoming annoying to deal with
 .topnav {
-  /* font-family: 'Droid Serif', serif; */
+  font-family: 'Droid Serif', serif; 
   overflow: hidden;
   background-color: #000000;
   position: sticky;
@@ -62,7 +64,7 @@
 
 .topnav-items-container {
   float: right;
-}
+} */
 
 /* .active {
   background-color: #000000;
@@ -77,18 +79,19 @@ body {
 body .hero {
   /* background: burlywood; */
   /* background: #4300FF; */
-  font-size: 40px;
-  font-family: 'FBI Old Report Regular', serif;
+  font-size: 30px;
+  /* font-family: 'FBI Old Report Regular', serif; */
 }
-.hero p{
-  font-family: 'Earwig Factory';
-  text-align:center;
+
+.hero p {
+  /* font-family: 'Earwig Factory'; */
+  text-align: center;
 
 }
 
 p .hero {
   line-height: 1.5;
-  font-family: 'FBI Old Report Regular', serif;
+  /* font-family: 'FBI Old Report Regular', serif; */
 }
 
 .container {
@@ -109,13 +112,14 @@ p .hero {
 }
 
 .card {
-  width: 92%;
-  max-width: 340px;
+  width: 100%;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  background: #EB5160;
-  color: #fff;
+  background: #000;
+  /* background: -webkit-linear-gradient(#443737, #272121); */
+  color: #e5e1e1;
   cursor: pointer;
   margin-bottom: 30px;
 }
@@ -134,33 +138,34 @@ p .hero {
 .card h1 {
   position: relative;
   padding: 190px 0px 100px 10px;
-  width: 90%;
+  width: 40%;
 }
-.card a{
+
+.card a {
   color: white;
 }
 
 .card>img {
   width: 90%;
   position: absolute;
-  top: -6%;
-  left: -6%;
+  top: 5%;
+  left: 5%;
 }
 
 .card-color-0 {
-  background-color: #0d0d0d;
+  background-color: #000;
 }
 
 .card-color-1 {
-  background-color: #0d0d0d;
+  background-color: #000;
 }
 
 .card-color-2 {
-  background-color: #0d0d0d;
+  background-color: #000;
 }
 
 .card-color-3 {
-  background-color: #0d0d0d;
+  background-color: #000;
 }
 
 /* The cover (expanding background) */
@@ -182,17 +187,18 @@ p .hero {
 
 .open-content img {
   position: relative;
-  width: 50%;
+  width: 70%;
+  /* height: 100%; */
   margin-left: 3%;
-  margin-top: 20px;
+  margin-top: 100px;
   z-index: 5;
 }
 
 .open-content .text {
   background: #fff;
-  margin-top: -20%;
-  padding: 50% 5% 5% 5%;
-  width: 70%;
+  margin-top: -37%;
+  padding: 40% 5% 5% 5%;
+  width: 80%;
   margin-left: 5%;
   margin-bottom: 1%;
 }
@@ -288,30 +294,16 @@ p .hero {
   transition-delay: 1000ms;
 }
 
-/* 
-** Media Queries
-*/
-
-@media screen and (max-width: 600px) {
-  .card-column {
-    width: 90%;
-  }
-
-  .column-1 {
-    padding-top: 0px;
-  }
-
-  .open-content img {
-    margin-top: 20px;
-  }
-}
-
 body .main {
   font-family: 'Droid Serif', serif;
   font-size: 14px;
   color: #2f2f2f;
   background-color: #f9f7f1;
   /* color of the freaking newspaper is here!!!! */
+}
+
+body .main a {
+  color: #000;
 }
 
 /* body .hero{
@@ -352,7 +344,7 @@ main .p {
 
 }
 
-.weatherbox-container {
+/* .weatherbox-container {
   position: relative;
   width: 12%;
   left: 10px;
@@ -361,7 +353,7 @@ main .p {
   line-height: 20px;
   display: inline-block;
   margin: 0 50px 20px -360px;
-}
+} */
 
 .content-container {
   font-size: 0;
@@ -400,41 +392,6 @@ main .p {
 
 }
 
-.collumn .headline.hl1 {
-  font-weight: 700;
-  font-size: 30px;
-  text-transform: uppercase;
-  padding: 10px 0 10px 0;
-
-}
-
-.collumn .headline.hl2 {
-  font-weight: 400;
-  font-style: italic;
-  font-size: 24px;
-  box-sizing: border-box;
-  padding: 10px 0 10px 0;
-}
-
-.collumn .headline.hl2:before {
-  border-top: 1px solid #2f2f2f;
-  content: '';
-  width: 100px;
-  height: 7px;
-  display: block;
-  margin: 0 auto;
-}
-
-.collumn .headline.hl2:after {
-  border-bottom: 1px solid #2f2f2f;
-  content: '';
-  width: 100px;
-  height: 13px;
-  display: block;
-  margin: 0 auto;
-
-}
-
 .collumn .headline.hl3 {
   font-weight: 400;
   font-style: italic;
@@ -467,70 +424,6 @@ main .p {
   display: block;
   margin: 0 auto;
 
-}
-
-.collumn .headline.hl5 {
-  font-weight: 400;
-  font-size: 42px;
-  text-transform: uppercase;
-  font-style: italic;
-  box-sizing: border-box;
-  padding: 10px 0 10px 0;
-}
-
-.collumn .headline.hl6 {
-  font-weight: 400;
-  font-size: 18px;
-  box-sizing: border-box;
-  padding: 10px 0 10px 0;
-}
-
-.collumn .headline.hl6:before {
-  border-top: 1px solid #2f2f2f;
-  content: '';
-  width: 100px;
-  height: 7px;
-  display: block;
-  margin: 0 auto;
-}
-
-.collumn .headline.hl6:after {
-  border-bottom: 1px solid #2f2f2f;
-  content: '';
-  width: 100px;
-  height: 10px;
-  display: block;
-  margin: 0 auto;
-
-}
-
-.collumn .headline.hl7 {
-  font-weight: 700;
-  font-size: 12px;
-  box-sizing: border-box;
-  display: block;
-  padding: 10px 0 10px 0;
-}
-
-.collumn .headline.hl8 {
-  font-weight: 700;
-  font-size: 12px;
-  box-sizing: border-box;
-  padding: 10px 0 10px 0;
-}
-
-.collumn .headline.hl9 {
-  font-weight: 700;
-  font-size: 12px;
-  box-sizing: border-box;
-  padding: 10px 0 10px 0;
-}
-
-.collumn .headline.hl10 {
-  font-weight: 700;
-  font-size: 12px;
-  box-sizing: border-box;
-  padding: 10px 0 10px 0;
 }
 
 .collumn .citation {
@@ -580,15 +473,8 @@ main .p {
   width: 100%;
 }
 
-/*________________________________________________________________________________________________________________________________*/
-/*MEDIAQUERIES*/
-@media only all and (max-width: 1300px) {
-  .weatherbox-conatiner {
-    display: none;
-  }
 
-}
-
+/* Media Quaries for the Newspaper */
 @media only all and (max-width: 1200px) {
   .collumn {
     width: 31%;
@@ -621,32 +507,47 @@ main .p {
     overflow: hidden;
   }
 
+  .media {
+    width: 80%;
+  }
+
 }
 
-/* body{
-  margin:0;
-  font-family: 'FBI Old Report Regular', serif;
-}
-.hero-section{
-  background-color: black;
-  color: white;
-  padding: 100px 20px;
-  text-align: center;
-}
-.main-section{
-  background-color: white;
-  color: black;
-  padding: 60px 20px;
-} */
+/* Media Quories for the Cards */
 
-/* .footer-container{
-   padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    overflow: hidden;
-    background-color: #000;
-    color: #fff;
-} */
+@media screen and (max-width: 600px) {
+  .card-column {
+    width: 90%;
+  }
+
+  .column-1 {
+    padding-top: 0px;
+  }
+
+  .open-content img {
+    margin-top: 50px;
+  }
+
+  .card>img {
+    width: 90%;
+    position: absolute;
+    top: -5%;
+    left: -5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-box {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  /* .main-box img {
+    width: 10%;
+    height: auto;
+    display: block;
+  } */
+}
 
 .footer-container {
   background-color: #000;
@@ -656,7 +557,7 @@ main .p {
 }
 
 .footer-container h1 {
-  font-family: 'Earwig Factory', sans-serif;
+  /* font-family: 'Earwig Factory', sans-serif; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -700,11 +601,6 @@ body {
   flex-direction: column;
 }
 
-@font-face {
-  font-family: 'Earwig Factory';
-  src: url('path/to/your/fontfile.ttf') format('truetype');
-}
-
 .main-box a {
   position: absolute;
   left: 676px;
@@ -736,16 +632,7 @@ body .header.visible {
 }
 
 /* 
-body #main:target{
-  background-color: #e1d7af;
-  transition:none;
-}
-body #main{
-  background-color:#f9f7f1;
-  transition:background-color 0.5s ease;
-} */
-
-/* CSS */
+CSS nice looking buttons 
 .button-74 {
   background-color: #000000;
   border: 2px solid #ff0000;
@@ -777,14 +664,15 @@ body #main{
 @media (min-width: 600px) {
   .button-74 {
     font-size: 14px;
-    line-height:40px;
+    line-height: 40px;
     padding: 0 25px;
   }
 }
+
 @media (min-width: 768px) {
   .button-74 {
     font-size: 14px;
-    line-height:40px;
+    line-height: 40px;
     padding: 0 25px;
   }
-}
+} */
