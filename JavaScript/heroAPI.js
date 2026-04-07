@@ -29,6 +29,22 @@ var paragraphTexts = [
   </p>`,
 
   `<p>
+    <strong>Project Title:</strong>Fashion Web App<br>
+    <strong>Authors:</strong> Roberto Salazar Vasquez<br>
+    <strong>Date:</strong>2025-today<br>
+    <strong>Status:</strong>Completed<br><br>
+    <strong>Summary:</strong> 
+    This web application is a barber service web app. The goal of this project is to support The One Stop Studio LLC streamline accessibility and bookings for the online space. 
+    Previously this small women-owned small buisness did not have a website. Because of this unfortuanately they had a bit of a hard time to reach a broader audience through social media.
+    Fortunately with this website it not only solved this gap in user interaction and user reach but also solved the issue of orginization through the use of the websites booking features.
+    This booking feature allows for users create an appointment and get notification via SMS about their appointments. More importantly to the buisness it neatly and quickly created calendar 
+    events to help orginize the workrs in their appointments at a given day, seemless integration for the day to day of the buisness, and notification about all appointments to never allow an appointment to be missed or lost in the shuffle.
+    <br><br>
+    <strong>Key Features:</strong> Home, About, Service, and Booking pages<br><br>
+    <strong>Technologies:</strong> Next.js, Sanity (CMS), Multi-Language Accecibility, basic SEO integrations.<br><br>
+  </p>`,
+
+  `<p>
     <strong>Project Title:</strong> Original Site<br>
     <strong>Authors:</strong> Roberto Salazar Vasquez<br>
     <strong>Date:</strong> Janurary 2021<br>
@@ -40,12 +56,19 @@ var paragraphTexts = [
   </p>`,
 
   `<p>
-    <strong>Project Title:</strong> Theres more to come...<br>
+    <strong>Project Title:</strong> Action Figure Repair Web-App<br>
     <strong>Authors:</strong> Roberto Salazar Vasquez<br>
-    <strong>Date:</strong>2025<br>
-    <strong>Status:</strong>Planning Phase<br><br>
-    <strong>Summary:</strong> Check the my GitHub<br><br>
-    <strong>Motivation:</strong> For fun and practice. I never want this to be boring so why not squeeze as much fun out of it :)
+    <strong>Date:</strong>2025-today<br>
+    <strong>Status:</strong>Version 1<br><br>
+    <strong>Summary:</strong> 
+    This web app aims to support the toy/action figure collector community through the use of easy to do repair guides for common toy problems. As of the first month of this projects inception there was over 100 users of the site.
+    To supliment the use of community driven data analytics of action figure quality control issues, there was also an api built to agrigate more data. The api pulled information from Reddit to agrigate Quality Issues users of the site reported. Another factor was
+    the cataloging of a very extensive list of "incurculation" action figures. Together these two forms of data was used to clean-up reddit posts with actual figure information either explicetly mentioned by the poster or found by the api.
+    Finally since Figure Fixing Felix uses Supabase, integration of the cleaned agrigated data was added to the website.
+    <br><br>
+    <strong>Key Features:</strong>Currently has guides for common action figure issues such as Loose, Stiff, & Broken parts.<br><br>
+    <strong>Technologies:</strong> Next.js, Supabase, TypeScript, JavaScript, Reddit JSONs, and CSVs<br><br>
+    <strong>Motivation:</strong> As a figure collection myself I found that there is a lack in support for broken action figures. So I stepped up by creating a IFIXIT-like project to help in this gap of the market.
   </p>`
 ];
 

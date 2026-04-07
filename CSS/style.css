@@ -94,6 +94,9 @@ p .hero {
 .card-color-3 {
   background-color: #000;
 }
+.card-color-4{
+  background-color: black;
+}
 
 /* The cover (expanding background) */
 .cover {
